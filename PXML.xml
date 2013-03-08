@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PXML xmlns="http://openpandora.org/namespaces/PXML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="PXML_schema.xsd">
+<!-- please see http://pandorawiki.org/PXML_specification for more information before editing, and remember the order does matter -->
+
+  <application id="ceighty.mrz" appdata="ceighty.mrz">
+    <exec command="./ceighty.pandora"/>
+    <title lang="en_US">CEightY</title>
+
+    <author name="mrz"/>
+    <version major="0" minor="1" release="0" build="1"/>	  
+    <osversion major="1" minor="0" release="0" build="0"/>		
+
+    <description lang="en_US">
+        CEightY is an interpreter for software written in Chip8 that also partially supports SuperChip.
+        
+        There are lots of games, demos and apps available legal and for free from the internet.
+        
+        Chip8 interpreters are often referred to as emulators because of the machinecode-like look of the language.
+        
+        Visit http://chip8.com/ or http://en.wikipedia.org/wiki/Chip8 for more informations about Chip8.
+    </description>
+
+
+    <previewpics>
+      <pic src="preview/ceighty_0.png"/>
+      <pic src="preview/ceighty_1.png"/>
+      <pic src="preview/ceighty_2.png"/>
+      <pic src="preview/ceighty_3.png"/>
+    </previewpics>
+
+
+    <categories>
+      <category name="Game">
+        <subcategory name="Emulator"/>
+      </category>
+    </categories>
+
+
+  </application>
+
+</PXML>
